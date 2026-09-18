@@ -1,0 +1,22 @@
+# Dependências e bibliotecas grandes (NÃO enviar)
+node_modules/
+venv/
+.venv/
+env/
+
+# Arquivos de senhas e chaves privadas (NUNCA enviar)
+.env
+.env.local
+*.pem
+
+# Pastas de build/compilação do site
+dist/
+build/
+.next/
+out/
+
+# Arquivos temporários do computador
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
